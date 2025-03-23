@@ -45,7 +45,7 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
 
         {/* GitHub link on the right */}
         <div className="flex min-w-1/5 justify-around">
-            <button onClick={scrollToFooter} className='p-2 cursor-pointer hover:bg-green-500 rounded-md transition-colors hover:text-black font-bold duration-300'>About Creator</button>
+            <button onClick={scrollToFooter} className='p-2 cursor-pointer bg-yellow-500 rounded-md transition-colors hover:text-white hover:border-amber-400 hover:border-2 hover:bg-gray-900 border-2 text-black font-bold duration-300'>About Creator</button>
           <a
             href="https://github.com/Mo-Jawad/Dhaincha-Friends"
             target="_blank"
