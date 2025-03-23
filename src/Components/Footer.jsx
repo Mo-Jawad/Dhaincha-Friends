@@ -1,0 +1,59 @@
+import React from 'react';
+import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa'; // Import icons
+
+const Footer = ({footerRef}) => {
+    
+  return (
+    <footer ref={footerRef} className="bg-gray-900 text-white py-8">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        {/* Left: Photo */}
+        <figure className="flex items-center mb-4 md:mb-0">
+          <img
+            src="src\assets\images\jawad.jpg" // Replace with your photo URL
+            alt="Creator"
+            className="h-32 w-32 rounded-full object-cover"
+          />
+        </figure>
+
+        {/* Center: Description */}
+        <div className="text-center mb-4 md:mb-0">
+          <p className="text-3xl pb-2 font-bold">MD Jawad</p>
+          <p className="text-gray-400 font-bold italic text-2xl">Hello, I am Jawad, A student of Dhaka University. <br /> A passionate developer building awesome things.</p>
+        </div>
+
+        {/* Right: Social Media Handles */}
+        <div className="flex-col ">
+            <h2 className='text-center pb-3 font-bold'>Social Media </h2>
+            <div className='flex space-x-6'>
+          <a
+            href="https://github.com/Mo-Jawad"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors duration-300"
+          >
+            <FaGithub className="h-8 w-8" />
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors duration-300"
+          >
+            <FaFacebook className="h-8 w-8" />
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors duration-300"
+          >
+            <FaInstagram className="h-8 w-8" />
+          </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
