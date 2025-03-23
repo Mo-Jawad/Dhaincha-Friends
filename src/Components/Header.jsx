@@ -1,6 +1,9 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({scrollToFooter}) => {
+
+  
+
   return (
     <header className="bg-gray-900 text-white shadow-lg">
       <div className="container mx-auto flex items-center justify-between p-2">
@@ -40,7 +43,7 @@ const Header = () => {
 
         {/* GitHub link on the right */}
         <div className="flex min-w-1/5 justify-around">
-            <span className='p-2 hover:bg-green-500 rounded-md transition-colors hover:text-black font-bold'>About Creator</span>
+            <button onClick={scrollToFooter} className='p-2 cursor-pointer hover:bg-green-500 rounded-md transition-colors hover:text-black font-bold duration-300'>About Creator</button>
           <a
             href="https://github.com/Mo-Jawad/Dhaincha-Friends"
             target="_blank"
