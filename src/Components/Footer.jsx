@@ -34,7 +34,7 @@ const Footer = ({footerRef}) => {
             <FaGithub className="h-8 w-8" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://facebook.com/MdJawadOfficial"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -42,7 +42,7 @@ const Footer = ({footerRef}) => {
             <FaFacebook className="h-8 w-8" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://www.instagram.com/jawad.ahmad10"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"
