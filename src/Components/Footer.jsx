@@ -11,7 +11,7 @@ const Footer = ({footerRef}) => {
           <img
             src="src\assets\images\jawad.jpg" // Replace with your photo URL
             alt="Creator"
-            className="h-32 w-32 rounded-full hover:rounded-md transition-all duration-200 object-cover"
+            className="h-40 w-60  rounded-md transition-normal hover:scale-105 hover:origin-bottom hover:-rotate-6 duration-300 object-cover hover:shadow-green-300 shadow-md"
           />
         </figure>
 
