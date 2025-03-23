@@ -1,0 +1,60 @@
+{
+  "Dhaicha": [
+    {
+      "id": 1,
+      "image": "src/assets/images/default.jpg",
+      "Name": "Farah Taj Mawla",
+      "SSC": 5.0,
+      "HSC": 5.0
+    },
+    {
+      "id": 2,
+      "image": "src/assets/images/sams.jpg",
+      "Name": "Sams Mahdi Zisun",
+      "SSC": 5.0,
+      "HSC": 5.0
+    },
+    {
+      "id": 3,
+      "image": "src/assets/images/Aiman.jpg",
+      "Name": "MD Aiman",
+      "SSC": 5.0,
+      "HSC": 5.0
+    },
+    {
+      "id": 4,
+      "image": "src/assets/images/razeen.jpg",
+      "Name": "Rayadul Ahmed Razeen",
+      "SSC": 5.0,
+      "HSC": 5.0
+    },
+    {
+      "id": 5,
+      "image": "src/assets/images/default.jpg",
+      "Name": "MD Jawad",
+      "SSC": 4.56,
+      "HSC": 4.75
+    },
+    {
+      "id": 6,
+      "image": "src/assets/images/Maisha.jpg",
+      "Name": "Maisha",
+      "SSC": 5.0,
+      "HSC": 5.0
+    },
+    {
+      "id": 7,
+      "image": "src/assets/images/Manoshi.jpg",
+      "Name": "Manoshi",
+      "SSC": 5.0,
+      "HSC": 5.0
+    },
+    {
+      "id": 8,
+      "image": "src/assets/images/default.jpg",
+      "Name": "Tasmiya Bonna",
+      "SSC": 5.0,
+      "HSC": 5.0
+    }
+  ]
+}
