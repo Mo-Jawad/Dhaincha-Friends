@@ -55,6 +55,13 @@
       "Name": "Tasmiya Bonna",
       "SSC": 5.0,
       "HSC": 5.0
+    },
+    {
+      "id": 9,
+      "image": "src/assets/images/default.jpg",
+      "Name": "Riya",
+      "SSC": 5.0,
+      "HSC": 5.0
     }
   ]
 }

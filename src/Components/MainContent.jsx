@@ -3,7 +3,8 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { useEffect, useState } from "react";
 import Cards from './cards';
 
-const MainContent = () => {
+const MainContent = ({ searchQuery}) => {
+    const [filteredUsers, setFilteredUsers] = useState([]);
     const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -28,6 +29,16 @@ const MainContent = () => {
     fetchData(); // Call the async function
   }, []); // Empty dependency array ensures this runs only once
 
+  useEffect(() => {
+    const filtered = users.filter((user) =>
+      user.Name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    setFilteredUsers(filtered);
+    if (filtered.length == 0) {
+        setFilteredUsers(users)
+    }
+  }, [searchQuery, users]);
+
 
   return (
     
@@ -36,7 +47,7 @@ const MainContent = () => {
     {loading ?
         <CircularProgress className='text-[8rem]'/>
     : error ? <p className='text-6xl text-red-500'>{error.massage}</p> 
-    : <Cards Data={users}/> }
+    : <Cards filteredUsers={filteredUsers}/> }
     </Box>
      
    
