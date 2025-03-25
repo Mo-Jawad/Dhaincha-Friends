@@ -5,8 +5,8 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
   
 
   return (
-    <header className="bg-gray-900 text-white shadow-lg">
-      <div className="container mx-auto flex items-center justify-between p-2">
+    <header className="bg-gray-900 text-white shadow-lg w-full">
+      <div className=" flex items-center justify-between p-2 w-full">
         {/* Logo on the left */}
         <div className="flex items-center">
           {/* <img
@@ -14,7 +14,7 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
             alt="Logo"
             className="h-10 w-10 rounded-full"
           /> */}
-          <span className="ml-2 tracking-widest text-[42px] font-bold text-blue-300">Dhaincha</span>
+          <span className="ml-2 tracking-widest text-[48px] font-bold text-orange-500">Dhaincha</span>
         </div>
 
         {/* Search bar in the center */}
@@ -45,11 +45,9 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
 
         {/* GitHub link on the right */}
         <div className="flex min-w-1/5 justify-around">
-<<<<<<< HEAD
+
             <button onClick={scrollToFooter} className='p-2 cursor-pointer bg-yellow-500 rounded-md transition-colors hover:text-white hover:border-amber-400 animate-bounce hover:bg-gray-900 border-2 text-black font-bold duration-300'>About Creator</button>
-=======
-            <button onClick={scrollToFooter} className='p-2 cursor-pointer bg-yellow-500 rounded-md transition-colors hover:text-white hover:border-amber-400 hover:border-2 hover:bg-gray-900 border-2 text-black font-bold duration-300'>About Creator</button>
->>>>>>> c4941d6f9c67a4bc61b4ff87c446f8ce6109d69f
+
           <a
             href="https://github.com/Mo-Jawad/Dhaincha-Friends"
             target="_blank"

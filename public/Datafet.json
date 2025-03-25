@@ -2,35 +2,40 @@
   "Dhaicha": [
     {
       "id": 1,
-      "image": "src/assets/images/default.jpg",
+      "image": "./src/assets/images/default.jpg",
       "Name": "Farah Taj Mawla",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "hometown": "Cumilla,Bangladesh",
+      "SSC": 5,
+      "HSC": 5
     },
     {
       "id": 2,
-      "image": "src/assets/images/sams.jpg",
+      "image": "./src/assets/images/sams.jpg",
       "Name": "Sams Mahdi Zisun",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "hometown": "Kurigram,Bangladesh",
+      "SSC": 5,
+      "HSC": 5
     },
     {
       "id": 3,
-      "image": "src/assets/images/Aiman.jpg",
+      "image": "./src/assets/images/Aiman.jpg",
+      "hometown": "Munshiganj,Bangladesh",
       "Name": "MD Aiman",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "SSC": 5,
+      "HSC": 5
     },
     {
       "id": 4,
       "image": "src/assets/images/razeen.jpg",
       "Name": "Rayadul Ahmed Razeen",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "hometown": "Dhaka,Bangladesh",
+      "SSC": 5,
+      "HSC": 5
     },
     {
       "id": 5,
       "image": "src/assets/images/jawad.jpg",
+      "hometown": "Noakhali,Bangladesh",
       "Name": "MD Jawad",
       "SSC": 4.56,
       "HSC": 4.75
@@ -39,29 +44,33 @@
       "id": 6,
       "image": "src/assets/images/Maisha.jpg",
       "Name": "Maisha",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "hometown": "Barishal,Bangladesh",
+      "SSC": 5,
+      "HSC": 5
     },
     {
       "id": 7,
       "image": "src/assets/images/Manoshi.jpg",
+      "hometown": "Thakurgaon,Bangladesh",
       "Name": "Manoshi",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "SSC": 5,
+      "HSC": 5
     },
     {
       "id": 8,
       "image": "src/assets/images/default.jpg",
+      "hometown": "Dhaka,Bangladesh",
       "Name": "Tasmiya Bonna",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "SSC": 5,
+      "HSC": 5
     },
     {
       "id": 9,
       "image": "src/assets/images/default.jpg",
+      "hometown": "Noakhali,Bangladesh",
       "Name": "Riya",
-      "SSC": 5.0,
-      "HSC": 5.0
+      "SSC": 5,
+      "HSC": 5
     }
   ]
 }

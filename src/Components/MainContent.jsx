@@ -13,7 +13,7 @@ const MainContent = ({ searchQuery}) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('../public/Data.JSON')
+        const response = await fetch('../Datafet.json')
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

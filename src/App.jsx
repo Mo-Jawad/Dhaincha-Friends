@@ -1,14 +1,16 @@
 import React, { useRef, useState } from 'react';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import MainContent from './Components/MainContent';
+import StudentDetails from './Components/StudentDetails';
 
 function App() {
 
   const [searchQuery, setSearchQuery] = useState(''); // State for search query
 
-
+  
   const handleSearch = (e) => {
     const query = e.target.value;
     setSearchQuery(query);
@@ -23,13 +25,21 @@ function App() {
   const scrollToFooter = () => {
     footerRef.current.scrollIntoView({ behavior: 'smooth' });
   }
-  
+
   return (
-    <>
+<>
+    <Router>
       <Header searchQuery={searchQuery} handleSearch={handleSearch} 
       scrollToFooter={scrollToFooter} />
-      <MainContent searchQuery={searchQuery}/>
-      <Footer footerRef={footerRef}/>
+
+        <Routes>
+          <Route path="/" element={<MainContent searchQuery={searchQuery}/>} />
+          <Route path="/dhaincha/:studentId/" element={<StudentDetails />} />
+            
+        </Routes>
+        <Footer footerRef={footerRef}/>
+    </Router>
+    
     </>
   )
 }
