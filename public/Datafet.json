@@ -4,7 +4,7 @@
       "id": 1,
       "image": "./src/assets/images/default.jpg",
       "Name": "Farah Taj Mawla",
-      "hometown": "Cumilla,Bangladesh",
+      "hometown": "Cumilla, Bangladesh",
       "SSC": 5,
       "HSC": 5,
       "behavior": ["Nerd", "short Temper", "smiling Face"]
@@ -13,7 +13,7 @@
       "id": 2,
       "image": "./src/assets/images/sams.jpg",
       "Name": "Sams Mahdi Zisun",
-      "hometown": "Kurigram,Bangladesh",
+      "hometown": "Kurigram, Bangladesh",
       "SSC": 5,
       "HSC": 5,
       "behavior": ["Meme Creator", "Organiser", "smiling Face"]
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "image": "./src/assets/images/Aiman.jpg",
-      "hometown": "Munshiganj,Bangladesh",
+      "hometown": "Munshiganj, Bangladesh",
       "Name": "MD Aiman",
       "SSC": 5,
       "HSC": 5,
@@ -31,7 +31,7 @@
       "id": 4,
       "image": "src/assets/images/razeen.jpg",
       "Name": "Rayadul Ahmed Razeen",
-      "hometown": "Dhaka,Bangladesh",
+      "hometown": "Dhaka, Bangladesh",
       "SSC": 5,
       "HSC": 5,
       "behavior": ["Loyal", "introvert"]
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "image": "src/assets/images/jawad.jpg",
-      "hometown": "Noakhali,Bangladesh",
+      "hometown": "Noakhali, Bangladesh",
       "Name": "MD Jawad",
       "SSC": 4.56,
       "HSC": 4.75,
@@ -49,7 +49,7 @@
       "id": 6,
       "image": "src/assets/images/Maisha.jpg",
       "Name": "Maisha",
-      "hometown": "Barishal,Bangladesh",
+      "hometown": "Barishal, Bangladesh",
       "SSC": 5,
       "HSC": 5,
       "behavior": ["helpful", "Nerd"]
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "image": "src/assets/images/Manoshi.jpg",
-      "hometown": "Thakurgaon,Bangladesh",
+      "hometown": "Thakurgaon, Bangladesh",
       "Name": "Manoshi",
       "SSC": 5,
       "HSC": 5,
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "image": "src/assets/images/default.jpg",
-      "hometown": "Dhaka,Bangladesh",
+      "hometown": "Dhaka, Bangladesh",
       "Name": "Tasmiya Bonna",
       "SSC": 5,
       "HSC": 5,
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "image": "src/assets/images/default.jpg",
-      "hometown": "Noakhali,Bangladesh",
+      "hometown": "Noakhali, Bangladesh",
       "Name": "Riya",
       "SSC": 5,
       "HSC": 5,
