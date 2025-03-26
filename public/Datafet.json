@@ -6,7 +6,8 @@
       "Name": "Farah Taj Mawla",
       "hometown": "Cumilla,Bangladesh",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["Nerd", "short Temper", "smiling Face"]
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "Name": "Sams Mahdi Zisun",
       "hometown": "Kurigram,Bangladesh",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["Meme Creator", "Organiser", "smiling Face"]
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "hometown": "Munshiganj,Bangladesh",
       "Name": "MD Aiman",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["helpful", "Active", "Nerd"]
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "Name": "Rayadul Ahmed Razeen",
       "hometown": "Dhaka,Bangladesh",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["Loyal", "introvert"]
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "hometown": "Noakhali,Bangladesh",
       "Name": "MD Jawad",
       "SSC": 4.56,
-      "HSC": 4.75
+      "HSC": 4.75,
+      "behavior": ["short Temper", "irritating Guy"]
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "Name": "Maisha",
       "hometown": "Barishal,Bangladesh",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["helpful", "Nerd"]
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "hometown": "Thakurgaon,Bangladesh",
       "Name": "Manoshi",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["fighter", "smiling Face", "extrovert"]
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "hometown": "Dhaka,Bangladesh",
       "Name": "Tasmiya Bonna",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["Nerd", "Active", "Energetic"]
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "hometown": "Noakhali,Bangladesh",
       "Name": "Riya",
       "SSC": 5,
-      "HSC": 5
+      "HSC": 5,
+      "behavior": ["short Temper", "Nerd"]
     }
   ]
 }
