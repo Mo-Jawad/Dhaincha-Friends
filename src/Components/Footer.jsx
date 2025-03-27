@@ -4,14 +4,14 @@ import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa'; // Import ic
 const Footer = ({footerRef}) => {
     
   return (
-    <footer ref={footerRef} className="bg-gray-900 text-white py-8 w-full px-4">
+    <footer ref={footerRef} className="bg-gray-900 text-white py-8 w-full px-8">
       <div className="w-full  flex flex-col md:flex-row items-center justify-between px-4">
         {/* Left: Photo */}
         <figure className="flex items-center mb-4 md:mb-0">
           <img
             src="/src/assets/images/jawad.jpg" // Replace with your photo URL
             alt="Creator"
-            className="h-40 w-60  rounded-md transition-normal hover:scale-105 hover:origin-bottom hover:-rotate-6 duration-300 object-cover hover:shadow-green-300 shadow-md"
+            className="h-40 w-70  rounded-md transition-normal hover:scale-105 hover:origin-bottom hover:-rotate-6 duration-300 object-cover hover:shadow-green-300 shadow-md"
           />
         </figure>
 

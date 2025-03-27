@@ -5,17 +5,17 @@
       "image": "./src/assets/images/default.jpg",
       "Name": "Farah Taj Mawla",
       "hometown": "Cumilla, Bangladesh",
-      "SSC": 5,
-      "HSC": 5,
-      "behavior": ["Nerd", "short Temper", "smiling Face"]
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": ["Nerd", "Beauty with Brain", "short Temper", "smiling Face"]
     },
     {
       "id": 2,
       "image": "./src/assets/images/sams.jpg",
       "Name": "Sams Mahdi Zisun",
       "hometown": "Kurigram, Bangladesh",
-      "SSC": 5,
-      "HSC": 5,
+      "SSC": 5.0,
+      "HSC": 5.0,
       "behavior": ["Meme Creator", "Organiser", "smiling Face"]
     },
     {
@@ -23,8 +23,8 @@
       "image": "./src/assets/images/Aiman.jpg",
       "hometown": "Munshiganj, Bangladesh",
       "Name": "MD Aiman",
-      "SSC": 5,
-      "HSC": 5,
+      "SSC": 5.0,
+      "HSC": 5.0,
       "behavior": ["helpful", "Active", "Nerd"]
     },
     {
@@ -32,8 +32,8 @@
       "image": "src/assets/images/razeen.jpg",
       "Name": "Rayadul Ahmed Razeen",
       "hometown": "Dhaka, Bangladesh",
-      "SSC": 5,
-      "HSC": 5,
+      "SSC": 5.0,
+      "HSC": 5.0,
       "behavior": ["Loyal", "introvert"]
     },
     {
@@ -48,19 +48,19 @@
     {
       "id": 6,
       "image": "src/assets/images/Maisha.jpg",
-      "Name": "Maisha",
+      "Name": "shafa Marwa Maisha",
       "hometown": "Barishal, Bangladesh",
-      "SSC": 5,
-      "HSC": 5,
+      "SSC": 5.0,
+      "HSC": 5.0,
       "behavior": ["helpful", "Nerd"]
     },
     {
       "id": 7,
       "image": "src/assets/images/Manoshi.jpg",
       "hometown": "Thakurgaon, Bangladesh",
-      "Name": "Manoshi",
-      "SSC": 5,
-      "HSC": 5,
+      "Name": "Rezwana Rahman Manoshi",
+      "SSC": 5.0,
+      "HSC": 5.0,
       "behavior": ["fighter", "smiling Face", "extrovert"]
     },
     {
@@ -68,8 +68,8 @@
       "image": "src/assets/images/default.jpg",
       "hometown": "Dhaka, Bangladesh",
       "Name": "Tasmiya Bonna",
-      "SSC": 5,
-      "HSC": 5,
+      "SSC": 5.0,
+      "HSC": 5.0,
       "behavior": ["Nerd", "Active", "Energetic"]
     },
     {
@@ -77,8 +77,8 @@
       "image": "src/assets/images/default.jpg",
       "hometown": "Noakhali, Bangladesh",
       "Name": "Riya",
-      "SSC": 5,
-      "HSC": 5,
+      "SSC": 5.0,
+      "HSC": 5.0,
       "behavior": ["short Temper", "Nerd"]
     }
   ]

@@ -6,7 +6,7 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
 
   return (
     <header className="bg-gray-900 text-white shadow-lg w-full">
-      <div className=" flex items-center justify-between p-2 w-full">
+      <div className=" flex items-center justify-between p-2 px-8 w-full">
         {/* Logo on the left */}
         <div className="flex items-center">
           {/* <img
@@ -14,7 +14,7 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
             alt="Logo"
             className="h-10 w-10 rounded-full"
           /> */}
-          <span className="ml-2 tracking-widest text-[48px] font-bold text-orange-500">Dhaincha</span>
+          <span className="ml-2 tracking-widest text-[48px] font-bold font-serif text-orange-500">Dhaincha</span>
         </div>
 
         {/* Search bar in the center */}
