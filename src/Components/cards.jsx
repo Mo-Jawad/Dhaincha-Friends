@@ -18,7 +18,7 @@ const Cards = ({ filteredUsers}) => {
         <div className="text-lg text-gray-700 dark:text-gray-200">HSC-GPA: {dhaicha.HSC == 5 ? (dhaicha.HSC + '.00') : dhaicha.HSC}</div>
         
     </div>
-    <button className="w-full bg-blue-700 text-2xl cursor-pointer text-white hover:bg-green-600 transition duration-200 font-bold p-1 rounded-md">See More</button>
+    <button className="w-full bg-blue-700 text-2xl cursor-pointer text-white hover:bg-green-600 transition duration-200 font-bold p-2 rounded-md">See More</button>
     </Link>
     
     </div>
