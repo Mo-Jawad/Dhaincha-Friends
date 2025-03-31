@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import { useEffect, useState } from "react";
-import Cards from './cards';
+import Cards from './Cards';
 
 const MainContent = ({ searchQuery}) => {
     const [filteredUsers, setFilteredUsers] = useState([]);
@@ -44,7 +44,7 @@ const MainContent = ({ searchQuery}) => {
          
     <Box className='flex w-[100%] justify-center items-center h-auto pb-4 bg-gray-700'>
     {loading ?
-         <div className='h-[40rem] w-full flex justify-center items-center'> <span className="loading loading-infinity h-[7rem] w-[7rem] text-success justify-center items-center"></span> </div>
+         <div className='h-[60rem] w-full flex justify-center items-center'> <span className="loading loading-infinity h-[7rem] w-[7rem] text-success justify-center items-center"></span> </div>
     : error ? <p className='text-6xl text-red-500'>{error.massage}</p> 
     : <Cards filteredUsers={filteredUsers}/> }
     </Box>
