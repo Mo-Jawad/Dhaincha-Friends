@@ -11,6 +11,15 @@
     },
     {
       "id": 2,
+      "image": "src/assets/images/shuvo.jpg",
+      "Name": "Nabiul Hasan Shuvo",
+      "hometown": "Rangpur, Bangladesh",
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": ["Nerd", "short Temper", "smiling Face"]
+    },
+    {
+      "id": 3,
       "image": "./src/assets/images/sams.jpg",
       "Name": "Sams Mahdi Zisun",
       "hometown": "Kurigram, Bangladesh",
@@ -19,7 +28,7 @@
       "behavior": ["Meme Creator", "Organiser", "smiling Face"]
     },
     {
-      "id": 3,
+      "id": 4,
       "image": "./src/assets/images/Aiman.jpg",
       "hometown": "Munshiganj, Bangladesh",
       "Name": "MD Aiman",
@@ -28,7 +37,7 @@
       "behavior": ["helpful", "Active", "Nerd"]
     },
     {
-      "id": 4,
+      "id": 5,
       "image": "src/assets/images/razeen.jpg",
       "Name": "Rayadul Ahmed Razeen",
       "hometown": "Dhaka, Bangladesh",
@@ -37,16 +46,25 @@
       "behavior": ["Loyal", "introvert"]
     },
     {
-      "id": 5,
+      "id": 6,
+      "image": "./src/assets/images/default.jpg",
+      "Name": "Mahira Zarin Tip",
+      "hometown": "Kishoreganj, Bangladesh",
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": ["Teacher", "Brilliant Student", "GeoDon"]
+    },
+    {
+      "id": 7,
       "image": "src/assets/images/jawad.jpg",
       "hometown": "Noakhali, Bangladesh",
       "Name": "MD Jawad",
       "SSC": 4.56,
       "HSC": 4.75,
-      "behavior": ["short Temper", "irritating Guy"]
+      "behavior": null
     },
     {
-      "id": 6,
+      "id": 8,
       "image": "src/assets/images/Maisha.jpg",
       "Name": "shafa Marwa Maisha",
       "hometown": "Barishal, Bangladesh",
@@ -55,7 +73,7 @@
       "behavior": ["helpful", "Nerd"]
     },
     {
-      "id": 7,
+      "id": 9,
       "image": "src/assets/images/Manoshi.jpg",
       "hometown": "Thakurgaon, Bangladesh",
       "Name": "Rezwana Rahman Manoshi",
@@ -64,7 +82,7 @@
       "behavior": ["fighter", "smiling Face", "extrovert"]
     },
     {
-      "id": 8,
+      "id": 10,
       "image": "src/assets/images/default.jpg",
       "hometown": "Dhaka, Bangladesh",
       "Name": "Tasmiya Bonna",
@@ -73,13 +91,58 @@
       "behavior": ["Nerd", "Active", "Energetic"]
     },
     {
-      "id": 9,
+      "id": 11,
+      "image": "src/assets/images/default.jpg",
+      "hometown": "shariyotpur, Bangladesh",
+      "Name": "Sanjida Akhter Orpa",
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": null
+    },
+    {
+      "id": 12,
       "image": "src/assets/images/default.jpg",
       "hometown": "Noakhali, Bangladesh",
       "Name": "Riya",
       "SSC": 5.0,
       "HSC": 5.0,
       "behavior": ["short Temper", "Nerd"]
+    },
+    {
+      "id": 13,
+      "image": "src/assets/images/rakin.jpg",
+      "hometown": "Kishorganj, Bangladesh",
+      "Name": "Rakin Radib Rad",
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": ["CR", "introvert"]
+    },
+    {
+      "id": 14,
+      "image": "src/assets/images/default.jpg",
+      "hometown": "Kishorganj, Bangladesh",
+      "Name": "Rizvi Hasan Bhuiyan",
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": null
+    },
+    {
+      "id": 15,
+      "image": "src/assets/images/default.jpg",
+      "hometown": "chandpur, Bangladesh",
+      "Name": "Rabeya Akhter",
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": ["Teacher", "short Temper", "Nerd"]
+    },
+    {
+      "id": 16,
+      "image": "src/assets/images/shoaib.jpg",
+      "hometown": "Rangpur, Bangladesh",
+      "Name": "Shoibur Rahman",
+      "SSC": 5.0,
+      "HSC": 5.0,
+      "behavior": ["Comedian", "Talented"]
     }
   ]
 }

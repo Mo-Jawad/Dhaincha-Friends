@@ -7,6 +7,7 @@ const Footer = ({footerRef}) => {
     <footer ref={footerRef} className="bg-gray-900 text-white py-8 w-full px-8">
       <div className="w-full  flex flex-col md:flex-row items-center justify-between px-4">
         {/* Left: Photo */}
+        <a href="https://www.facebook.com/share/15qoZMzH3d/" target='_blank'>
         <figure className="flex items-center mb-4 md:mb-0">
           <img
             src="/src/assets/images/jawad.jpg" // Replace with your photo URL
@@ -14,10 +15,11 @@ const Footer = ({footerRef}) => {
             className="h-40 w-70  rounded-md transition-normal hover:scale-105 hover:origin-bottom hover:-rotate-6 duration-300 object-cover hover:shadow-green-300 shadow-md"
           />
         </figure>
-
+        </a>
+        
         {/* Center: Description */}
         <div className="text-center mb-4 md:mb-0">
-          <p className="text-3xl pb-2 font-bold">MD Jawad</p>
+          <a href="https://www.facebook.com/share/15qoZMzH3d/" target='_blank'><p className="text-3xl pb-2 font-bold">MD Jawad</p></a>
           <p className="text-gray-400 font-bold italic text-2xl">Hello, I am Jawad, A student of Dhaka University. <br /> A passionate developer building awesome things.</p>
         </div>
 

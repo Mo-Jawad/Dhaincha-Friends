@@ -13,9 +13,11 @@ const Cards = ({ filteredUsers}) => {
     <a href="#" className="font-serif block text-lime-400 pt-7 text-2xl font-bold text-center" tabIndex="0" role="link">{dhaicha.Name}</a>
     <div className="pb-5 font-bold text-center">
         
-        <div className="text-[20px] py-3 text-gray-700 dark:text-gray-200 font-serif">Student</div> 
-        <div className="text-lg text-gray-700 dark:text-gray-200">SSC-GPA: {dhaicha.SSC == 5 ? (dhaicha.SSC + '.00') : dhaicha.SSC}</div>
-        <div className="text-lg text-gray-700 dark:text-gray-200">HSC-GPA: {dhaicha.HSC == 5 ? (dhaicha.HSC + '.00') : dhaicha.HSC}</div>
+        <div className="text-[20px] py-3 text-gray-700 dark:text-gray-200 font-serif">Student</div>
+
+        { dhaicha?.SSC != null && (<div className="text-lg text-gray-700 dark:text-gray-200">SSC-GPA: {dhaicha?.SSC == 5 ? (dhaicha.SSC + '.00') : dhaicha?.SSC}</div>)}
+
+        { dhaicha?.HSC != null && (<div className="text-lg text-gray-700 dark:text-gray-200">HSC-GPA: {dhaicha?.HSC == 5 ? (dhaicha.HSC + '.00') : dhaicha?.HSC}</div>)}
         
     </div>
     <button className="w-full bg-blue-700 text-2xl cursor-pointer text-white hover:bg-green-600 transition duration-200 font-bold p-2 rounded-md">See More</button>

@@ -56,17 +56,17 @@ function StudentDetails() {
       </div><div className='w-full h-full pb-5'>
           <div className='flex items-center justify-around h-full'>
             <figure className='flex h-auto'>
-              <img className=" w-90 h-90 rounded-md items-center hover:scale-110 transition duration-150" src={`../../${dhainchas.image}`} alt={dhainchas.name} />
+              <img className=" w-100 h-90 rounded-md items-center hover:scale-110 transition duration-150" src={`../../${dhainchas.image}`} alt={dhainchas.name} />
             </figure>
 
             <div className='w-2xl h-fit flex-col rounded-md shadow-md hover:shadow-green-600 text-center items-center justify-center p-5 py-8 text-2xl  font-bold text-orange-400 border-2 border-amber-400 bg-gray-800 transition duration-200'>
               <div className='flex-col pl-4 font-mono space-y-3 justify-start text-start h-full'>
                 <h2>Name : {dhainchas.Name}</h2>
                 <h4>Home Town : {dhainchas.hometown}</h4>
-                <p>SSC-GPA : {dhainchas.SSC}</p>
-                <p>HSC-GPA : {dhainchas.HSC}</p>
+                { dhainchas?.SSC != null && (<p>SSC-GPA : {dhainchas?.SSC == 5 ? (dhainchas.SSC + '.00') : dhainchas?.SSC}</p>)}
+                { dhainchas?.HSC != null && (<p>HSC-GPA : {dhainchas?.HSC == 5 ? (dhainchas?.HSC + '.00') : dhainchas?.HSC}</p>)}
 
-                {dhainchas.id !== 8 && (
+                {(dhainchas?.behavior != null && dhainchas.id !== 8) && (
                   <div className='flex-col items-start space-y-2 text-blue-300 font-normal font-serif'>
                     <div className='w-full '>characteristics:</div>
 

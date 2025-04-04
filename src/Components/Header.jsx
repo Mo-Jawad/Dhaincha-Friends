@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
 
@@ -14,7 +15,9 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
             alt="Logo"
             className="h-10 w-10 rounded-full"
           /> */}
+          <Link to="/">
           <span className="ml-2 tracking-widest text-[48px] font-bold font-serif text-orange-500">Geo Gems</span>
+          </Link>
         </div>
 
         {/* Search bar in the center */}
@@ -46,13 +49,13 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
         {/* GitHub link on the right */}
         <div className="flex min-w-1/5 justify-around">
 
-            <button onClick={scrollToFooter} className='p-2 cursor-pointer bg-yellow-500 rounded-md transition-colors hover:text-white hover:border-amber-400 animate-bounce hover:bg-gray-900 border-2 text-black font-bold duration-300'>About Creator</button>
+            <button onClick={scrollToFooter} className='p-2 cursor-pointer bg-yellow-500 rounded-md transition-colors hover:text-white hover:border-amber-400 animate-bounce hover:bg-gray-900 border-2 mr-3 text-black font-bold duration-300'>About Creator</button>
 
           <a
             href="https://github.com/Mo-Jawad/Dhaincha-Friends"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-white hover:text-blue-400 transition-colors duration-300"
+            className="flex items-center text-white hover:text-amber-300 transition-colors duration-300"
           >
             <div className='flex-col'>
 
@@ -73,10 +76,10 @@ const Header = ({scrollToFooter, searchQuery, handleSearch}) => {
 
           
           <a
-  href="https://www.facebook.com/yourpage"  
+  href="https://www.facebook.com/share/19yk8TMPPz/"  
   target="_blank"
   rel="noopener noreferrer"
-  className="flex items-center text-white hover:text-blue-400 transition-colors duration-300"
+  className="flex items-center text-white hover:text-amber-300 transition-colors duration-300"
 >
 <div className='flex-col'>
 
